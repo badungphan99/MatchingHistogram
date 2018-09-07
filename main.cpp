@@ -96,9 +96,9 @@ int main(){
     }else{
         cdf(imageInput, cdfImInput);
         cdf(imageTarget, cdfImTarget);
-        for(int i=1;i<256;i++){
+        for(int i=0;i<256;i++){
             for(int j=1;j<256;j++){
-                if((cdfImInput[i]>cdfImTarget[j-1])&&(cdfImInput[i] <= cdfImTarget[j])){
+                if((cdfImInput[i]>cdfImTarget[j-1])&&(cdfImInput[i] <= cdfImTarget[j])) {
                     lut[i] = j;
                 }
             }
