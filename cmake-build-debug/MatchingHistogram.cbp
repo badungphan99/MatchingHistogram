@@ -8,98 +8,102 @@
 		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\OpenCV\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug"/>
+				<Option working_dir="/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug"/>
+				<Option working_dir="/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MatchingHistogram">
-				<Option output="/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/MatchingHistogram" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug"/>
+				<Option output="/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/MatchingHistogram" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/opencv"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 MatchingHistogram"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 MatchingHistogram"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MatchingHistogram/fast">
-				<Option output="/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/MatchingHistogram" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug"/>
+				<Option output="/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/MatchingHistogram" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/opencv"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 MatchingHistogram/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 MatchingHistogram/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/dungba/Dev/XLA/MatchingHistogram/main.cpp">
+		<Unit filename="/home/dungpb/Dev/C++/BaDung_MatchingHistogram/main.cpp">
 			<Option target="MatchingHistogram"/>
 		</Unit>
-		<Unit filename="/Users/dungba/Dev/XLA/MatchingHistogram/CMakeLists.txt">
+		<Unit filename="/home/dungpb/Dev/C++/BaDung_MatchingHistogram/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/dungba/Dev/XLA/MatchingHistogram/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+		<Unit filename="/home/dungpb/Dev/C++/BaDung_MatchingHistogram/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/Users/dungba/Dev/XLA/MatchingHistogram/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+		<Unit filename="/home/dungpb/Dev/C++/BaDung_MatchingHistogram/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/Users/dungba/Dev/XLA/MatchingHistogram/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+		<Unit filename="/home/dungpb/Dev/C++/BaDung_MatchingHistogram/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/Users/dungba/Dev/XLA/MatchingHistogram/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+		<Unit filename="/home/dungpb/Dev/C++/BaDung_MatchingHistogram/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
 	</Project>

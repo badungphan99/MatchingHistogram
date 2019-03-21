@@ -4,9 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/dungba/Dev/XLA/MatchingHistogram/main.cpp" "/Users/dungba/Dev/XLA/MatchingHistogram/cmake-build-debug/CMakeFiles/MatchingHistogram.dir/main.cpp.o"
+  "/home/dungpb/Dev/C++/BaDung_MatchingHistogram/main.cpp" "/home/dungpb/Dev/C++/BaDung_MatchingHistogram/cmake-build-debug/CMakeFiles/MatchingHistogram.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "OPENCV_TRAITS_ENABLE_DEPRECATED"
+  )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
